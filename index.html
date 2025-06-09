@@ -1,15 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Blog preview card</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
 
-</body>
+    <title>Blog preview card</title>
+  </head>
+  <body>
+    <div class="container">
+      <article class="blog-preview-card">
+        <img
+          src="./assets/images/illustration-article.svg"
+          alt="Article illustration"
+          class="illustration"
+        />
+        <section class="blog-preview-card__content">
+          <p class="content__tag">Learning</p>
+          <div class="content__date">Published 21 Dec 2023</div>
+          <div class="content__header">HTML & CSS foundations</div>
+          <div class="content__description">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </div>
+        </section>
+        <div class="blog-preview-card__author">
+          <img
+            src="./assets/images/image-avatar.webp"
+            alt="Author's photo"
+            class="author__photo"
+          />
+          <div class="author__name">Greg Hooper</div>
+        </div>
+      </article>
+    </div>
+  </body>
 </html>
